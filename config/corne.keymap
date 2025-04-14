@@ -67,10 +67,10 @@
 
         raise_layer {
             bindings = <
-                &trans      &none    &none    &none     &none     &none     &kp MINUS   &kp HOME    &kp UP      &kp PG_UP &kp C_MUTE     &kp RGUI
-                &trans      &none    &none    &none     &none     &none     &kp PLUS    &kp LEFT    &kp DOWN    &kp RIGHT &kp C_VOL_UP   &kp RCTRL
-                &trans      &none    &none    &none     &none     &none     &kp PIPE    &kp END     &none       &kp PG_DN &kp C_VOL_DOWN &kp RALT
-                             &trans &trans   &trans   &trans   &trans    &trans
+                &trans  &none  &none  &none   &none   &none     &kp MINUS  &kp HOME  &kp UP    &kp PG_UP &kp C_MUTE     &kp RGUI
+                &trans  &none  &none  &none   &none   &none     &kp PLUS   &kp LEFT  &kp DOWN  &kp RIGHT &kp C_VOL_UP   &kp RCTRL
+                &trans  &none  &none  &none   &none   &none     &kp PIPE   &kp END   &none     &kp PG_DN &kp C_VOL_DN &kp RALT
+                                      &trans  &trans  &trans    &trans     &trans    &trans
                         >;
                 };
         };
